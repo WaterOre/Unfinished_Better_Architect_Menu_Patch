@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<!-- parity with transport pod launcher -->
+
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="PassengerShuttle"]</xpath>
+        <value>
+            <designationCategory>Ferny_AerialTransport</designationCategory>
+        </value>
+    </Operation>
+
+</Patch>

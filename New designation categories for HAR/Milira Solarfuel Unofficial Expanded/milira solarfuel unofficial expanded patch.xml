@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<!-- unlike all other milira items getting shunted to Aliens -> Milira, i felt this made the most sense going into the resource tab since the player will go there to build every other pipe network -->
+
+	<Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName[contains(text(), "MSUE_"]]</xpath>
+        <value>
+            <designationCategory>Ferny_SolarfuelNetwork</designationCategory>
+        </value>
+    </Operation>
+
+</Patch>

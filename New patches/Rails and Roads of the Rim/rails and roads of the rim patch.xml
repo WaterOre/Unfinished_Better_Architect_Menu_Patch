@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--- Rails and Roads of the Rim (Continued)-->
+
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName="ConcreteBridge"]</xpath>
+		<value>
+			<designationCategory>Ferny_Foundations</designationCategory>
+		</value>
+	</Operation>
+
+</Patch>

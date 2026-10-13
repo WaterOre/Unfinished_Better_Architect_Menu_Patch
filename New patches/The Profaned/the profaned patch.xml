@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Patch contains a lot of furniture that might be better as part of the Profaned style -->
+
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedThrone"]</xpath>
+        <value>
+            <designationCategory>Ferny_Meditation</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedBrazier"]</xpath>
+        <value>
+            <designationCategory>Ferny_Lighting</designationCategory>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedBrazierDarklight"]</xpath>
+        <value>
+            <designationCategory>Ferny_Lighting</designationCategory>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedBrazierBlood"]</xpath>
+        <value>
+            <designationCategory>Ferny_Lighting</designationCategory>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedLantern"]</xpath>
+        <value>
+            <designationCategory>Ferny_Lighting</designationCategory>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedBanner"]</xpath>
+        <value>
+            <designationCategory>Ferny_DecoHanging</designationCategory>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedChest"]</xpath>
+        <value>
+            <designationCategory>Ferny_Linkables</designationCategory>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedAlchemyBench"]</xpath>
+        <value>
+            <designationCategory>Ferny_Production</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedRitualCircle"]</xpath>
+        <value>
+            <designationCategory>Ferny_Production</designationCategory>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_WraithOrbPedestal"]</xpath>
+        <value>
+            <designationCategory>Ferny_Cooling</designationCategory>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_BloodStoneTurret"]</xpath>
+        <value>
+            <designationCategory>Ferny_Weapons</designationCategory>
+        </value>
+    </Operation>
+
+<!-- furniture -->
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedTable"]</xpath>
+        <value>
+            <designationCategory>Ferny_Tables</designationCategory>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedTableLarge"]</xpath>
+        <value>
+            <designationCategory>Ferny_Tables</designationCategory>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedChair"]</xpath>
+        <value>
+            <designationCategory>Ferny_Seating</designationCategory>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedBed"]</xpath>
+        <value>
+            <designationCategory>Ferny_Bedroom</designationCategory>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedRoyalBed"]</xpath>
+        <value>
+            <designationCategory>Ferny_Bedroom</designationCategory>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedDoubleDoor"]</xpath>
+        <value>
+            <designationCategory>Ferny_Doors</designationCategory>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="BotchJob_ProfanedSingleDoor"]</xpath>
+        <value>
+            <designationCategory>Ferny_Doors</designationCategory>
+        </value>
+    </Operation>
+
+</Patch>

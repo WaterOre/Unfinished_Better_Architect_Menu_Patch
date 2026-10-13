@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<!-- all fermenting barrels are a designator dropdown from this base -->
+
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="Mashed_Ashlands_AshlandFermentingBarrel"]</xpath>
+        <value>
+            <designationCategory>Ferny_Kitchen</designationCategory>
+        </value>
+    </Operation>
+	
+<!-- all lamps are a designator dropdown from this base -->
+
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="Mashed_Ashlands_TorchbugLamp_Base"]</xpath>
+        <value>
+            <designationCategory>Ferny_Lighting</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="Mashed_Ashlands_FetcherflyHive"]</xpath>
+        <value>
+            <designationCategory>Ferny_Farming</designationCategory>
+        </value>
+    </Operation>
+
+</Patch>

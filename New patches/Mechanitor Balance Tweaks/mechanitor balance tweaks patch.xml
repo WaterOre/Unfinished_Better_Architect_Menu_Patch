@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="MBTBandNode"]</xpath>
+        <value>
+            <designationCategory>Ferny_Mechanoids</designationCategory>
+        </value>
+    </Operation>
+
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="MechanoidSkillEncoder"]</xpath>
+        <value>
+            <designationCategory>Ferny_Mechanoids</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="MechaniteGestatorMBT"]</xpath>
+        <value>
+            <designationCategory>Ferny_Mechanoids</designationCategory>
+        </value>
+    </Operation>	
+
+</Patch>

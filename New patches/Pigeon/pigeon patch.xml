@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="PigeonNest"]</xpath>
+        <value>
+            <designationCategory>Ferny_AnimalBedding</designationCategory>
+        </value>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- using the ferny namespace for consistency even though i'm not ferny
+
+shoving everything related to a specific HAR race into its own categry feels tacky, but after asking in maincord, this was what seemed to be most useful to people using lots of HAR races. as it stands they need to sort through every tab and read the extended info to pair architect menu gizmos to races
+-->
+
+<Defs>
+
+	<DesignationCategoryDef>
+		<defName>Ferny_Aliens</defName>
+		<label>Aliens</label>
+		<description>Build things related to alien races.</description>
+		<order>12</order>
+	</DesignationCategoryDef>
+  
+   <DesignationCategoryDef>
+    <defName>Ferny_Milira</defName>
+    <label>Milira</label>
+    <description>Build things related to Milira.</description>
+    <order>1003</order>
+    <specialDesignatorClasses>
+      <li>Designator_Cancel</li>
+      <li>Designator_Deconstruct</li>
+    </specialDesignatorClasses>
+    <modExtensions>
+      <li Class="BetterArchitect.NestedCategoryExtension">
+        <parentCategory>Ferny_Aliens</parentCategory>
+      </li>
+    </modExtensions>
+  </DesignationCategoryDef>
+  
+   <DesignationCategoryDef>
+    <defName>Ferny_Lilies</defName>
+    <label>Lilies</label>
+    <description>Build things related to Lilies.</description>
+    <order>1002</order>
+    <specialDesignatorClasses>
+      <li>Designator_Cancel</li>
+      <li>Designator_Deconstruct</li>
+    </specialDesignatorClasses>
+    <modExtensions>
+      <li Class="BetterArchitect.NestedCategoryExtension">
+        <parentCategory>Ferny_Aliens</parentCategory>
+      </li>
+    </modExtensions>
+  </DesignationCategoryDef>
+
+  <DesignationCategoryDef>
+    <defName>Ferny_Moyo</defName>
+    <label>Moyo</label>
+    <description>Build things related to Moyo.</description>
+    <order>1005</order>
+    <specialDesignatorClasses>
+      <li>Designator_Cancel</li>
+      <li>Designator_Deconstruct</li>
+    </specialDesignatorClasses>
+    <modExtensions>
+      <li Class="BetterArchitect.NestedCategoryExtension">
+        <parentCategory>Ferny_Aliens</parentCategory>
+      </li>
+    </modExtensions>
+  </DesignationCategoryDef>
+  
+   <DesignationCategoryDef>
+    <defName>Ferny_Ratkin</defName>
+    <label>Ratkin</label>
+    <description>Build things related to Ratkin.</description>
+    <order>1006</order>
+    <specialDesignatorClasses>
+      <li>Designator_Cancel</li>
+      <li>Designator_Deconstruct</li>
+    </specialDesignatorClasses>
+    <modExtensions>
+      <li Class="BetterArchitect.NestedCategoryExtension">
+        <parentCategory>Ferny_Aliens</parentCategory>
+      </li>
+    </modExtensions>
+  </DesignationCategoryDef>
+  
+<!-- resource category def for milira solarfuel-->
+  
+    <DesignationCategoryDef>
+    <defName>Ferny_SolarfuelNetwork</defName>
+    <label>Solarfuel</label>
+    <description>Manage solarfuel.</description>
+    <order>8</order>
+    <specialDesignatorClasses>
+      <li>Designator_Cancel</li>
+      <li>Designator_Deconstruct</li>
+    </specialDesignatorClasses>
+    <modExtensions>
+      <li Class="BetterArchitect.NestedCategoryExtension">
+        <parentCategory>VCHE_PipeNetworks</parentCategory>
+      </li>
+    </modExtensions>
+  </DesignationCategoryDef>
+
+</Defs>

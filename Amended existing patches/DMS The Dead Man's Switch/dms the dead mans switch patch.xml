@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--- Patch adds buildings missed by original patch-->
+
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DMS_PerimeterScanner"]</xpath>
+		<value>
+			<designationCategory>Ferny_CombatInfrastructure</designationCategory>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DMS_BandNode"]</xpath>
+		<value>
+			<designationCategory>Ferny_Mechanoids</designationCategory>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DMS_Shuttle_Player"]</xpath>
+		<value>
+			<designationCategory>Ferny_AerialTransport</designationCategory>
+		</value>
+	</Operation>
+
+
+</Patch>

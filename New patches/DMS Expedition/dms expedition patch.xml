@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMSE_FusionCore"]</xpath>
+        <value>
+            <designationCategory>Ferny_SpacePower</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMSE_PhaseArrayRadar"]</xpath>
+        <value>
+            <designationCategory>Ferny_CombatInfrastructure</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMSE_StealthDevice"]</xpath>
+        <value>
+            <designationCategory>Ferny_CombatInfrastructure</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMSE_SolarShield"]</xpath>
+        <value>
+            <designationCategory>Ferny_Terraforming</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMSE_Battery"]</xpath>
+        <value>
+            <designationCategory>Ferny_PowerStorage</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMSE_PhotovoltaicPanel"]</xpath>
+        <value>
+            <designationCategory>Ferny_SpacePower</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMSE_GrapheneBioreactor"]</xpath>
+        <value>
+            <designationCategory>Ferny_Kitchen</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMSE_Building_Scorer"]</xpath>
+        <value>
+            <designationCategory>Ferny_CombatInfrastructure</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMSE_VacuumPump"]</xpath>
+        <value>
+            <designationCategory>Ferny_SpaceVacuum</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMSE_OxygenCandle"]</xpath>
+        <value>
+            <designationCategory>Ferny_SpaceVacuum</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMSE_VacuumRoom_Entrance"]</xpath>
+        <value>
+            <designationCategory>Ferny_SpaceVacuum</designationCategory>
+        </value>
+    </Operation>
+
+</Patch>

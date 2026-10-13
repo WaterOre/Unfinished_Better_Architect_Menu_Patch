@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+		<xpath>Defs/ThingDef[defName="PLAMilira_God_Tower_Player"]</xpath>
+        <value>
+            <designationCategory>Ferny_Milira</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="Milira_Nova_Sphere"]</xpath>
+        <value>
+            <designationCategory>Ferny_Milira</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="Aurora_Interceptora"]</xpath>
+        <value>
+            <designationCategory>Ferny_Milira</designationCategory>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName=[contains(text(), "PLAMilira_"]]</xpath>
+        <value>
+            <designationCategory>Ferny_Milira</designationCategory>
+        </value>
+    </Operation>
+
+</Patch>

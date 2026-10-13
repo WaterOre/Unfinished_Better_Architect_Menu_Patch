@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<!-- thank you @bblkepling for the xml formatting help! -->
+
+	<Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName[contains(text(), "Milira_"||"MiliraTurret_"]]</xpath>
+        <value>
+            <designationCategory>Ferny_Milira</designationCategory>
+        </value>
+    </Operation>
+
+</Patch>
